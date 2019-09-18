@@ -9,6 +9,6 @@ app.get('/', (req, res)=>{
 })
 
 
-app.listen(3000, process.env.ID, ()=>{
+app.listen(process.env.PORT, process.env.ID, ()=>{
 	console.log('app started');
 })

@@ -1,0 +1,24 @@
+{
+  "name": "freshfood",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"start": "node app.js"  
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sureshnagulapalli/freshfood-website.git"
+  },
+  "author": "suresh nagulapalli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sureshnagulapalli/freshfood-website/issues"
+  },
+  "homepage": "https://github.com/sureshnagulapalli/freshfood-website#readme",
+  "dependencies": {
+    "ejs": "^2.7.1",
+    "express": "^4.17.1"
+  }
+}
